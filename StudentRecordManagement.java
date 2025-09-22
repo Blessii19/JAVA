@@ -5,7 +5,7 @@ class StudentRecordManagement {
     static Scanner sc = new Scanner(System.in);
     static File file = new File("students.txt");
     public static void createRecord() throws IOException {
-        FileWriter fw = new FileWriter(file, false); // overwrite file
+        FileWriter fw = new FileWriter(file, false);
         BufferedWriter bw = new BufferedWriter(fw);
 
         System.out.print("Enter number of students: ");
